@@ -6,5 +6,5 @@ Bài tập 4 chương 5 sách "Computer graphics principles and practice".
 
 **Preview:**
 
-![image](./BaiTap5-4/demo.gif)
+![image](./demo.gif)
 
