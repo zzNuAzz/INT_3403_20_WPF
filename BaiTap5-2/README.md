@@ -7,4 +7,4 @@ Bài tập 2 chương 5 sách "Computer graphics principles and practice".
 
 **Preview:**
 
-![image](./BaiTap5-2/demo.gif)
+![image](./demo.gif)
