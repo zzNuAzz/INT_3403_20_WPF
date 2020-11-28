@@ -1,0 +1,15 @@
+C:\Users\chume\source\repos\BaiTap5-2\BaiTap5-2\bin\Debug\BaiTap5-2.exe.config
+C:\Users\chume\source\repos\BaiTap5-2\BaiTap5-2\bin\Debug\BaiTap5-2.exe
+C:\Users\chume\source\repos\BaiTap5-2\BaiTap5-2\bin\Debug\BaiTap5-2.pdb
+C:\Users\chume\source\repos\BaiTap5-2\BaiTap5-2\obj\Debug\BaiTap5-2.csprojAssemblyReference.cache
+C:\Users\chume\source\repos\BaiTap5-2\BaiTap5-2\obj\Debug\MainWindow.g.cs
+C:\Users\chume\source\repos\BaiTap5-2\BaiTap5-2\obj\Debug\App.g.cs
+C:\Users\chume\source\repos\BaiTap5-2\BaiTap5-2\obj\Debug\BaiTap5-2_MarkupCompile.cache
+C:\Users\chume\source\repos\BaiTap5-2\BaiTap5-2\obj\Debug\BaiTap5-2_MarkupCompile.lref
+C:\Users\chume\source\repos\BaiTap5-2\BaiTap5-2\obj\Debug\MainWindow.baml
+C:\Users\chume\source\repos\BaiTap5-2\BaiTap5-2\obj\Debug\BaiTap5-2.g.resources
+C:\Users\chume\source\repos\BaiTap5-2\BaiTap5-2\obj\Debug\BaiTap5_2.Properties.Resources.resources
+C:\Users\chume\source\repos\BaiTap5-2\BaiTap5-2\obj\Debug\BaiTap5-2.csproj.GenerateResource.cache
+C:\Users\chume\source\repos\BaiTap5-2\BaiTap5-2\obj\Debug\BaiTap5-2.csproj.CoreCompileInputs.cache
+C:\Users\chume\source\repos\BaiTap5-2\BaiTap5-2\obj\Debug\BaiTap5-2.exe
+C:\Users\chume\source\repos\BaiTap5-2\BaiTap5-2\obj\Debug\BaiTap5-2.pdb

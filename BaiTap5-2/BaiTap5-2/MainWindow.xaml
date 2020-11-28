@@ -1,0 +1,378 @@
+﻿<Window x:Class="BaiTap5_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BaiTap5_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="1200">
+    <Grid>
+        <Grid  Background="Black" Width="800" Height="800" Margin="0,0,392,0">
+            <Canvas Margin="50,30,-50,-31" x:Name="grid">
+                <Canvas.RenderTransform>
+                    <RotateTransform  x:Name="TransRotate" CenterX="360" CenterY="361" Angle="0"/>
+                </Canvas.RenderTransform>
+                <Canvas.Resources>
+                    <Storyboard x:Key="spin">
+                        <DoubleAnimation x:Name="da" 
+                             Storyboard.TargetName="TransRotate" 
+                             Storyboard.TargetProperty="Angle"
+                             By="360" 
+                             Duration="0:0:50"
+                             RepeatBehavior="Forever" />
+                    </Storyboard>
+                </Canvas.Resources>
+                <Grid Height="40" Width="40" Canvas.Left="100" Canvas.Top="100">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="100" Canvas.Top="160">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="100" Canvas.Top="220">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="100" Canvas.Top="280">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="100" Canvas.Top="340">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="100" Canvas.Top="400">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="100" Canvas.Top="460">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="100" Canvas.Top="520">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="100" Canvas.Top="580">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="160" Canvas.Top="100">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="160" Canvas.Top="160">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="160" Canvas.Top="220">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="160" Canvas.Top="280">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="160" Canvas.Top="340">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="160" Canvas.Top="400">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="160" Canvas.Top="460">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="160" Canvas.Top="520">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="160" Canvas.Top="580">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="220" Canvas.Top="100">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="220" Canvas.Top="160">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="220" Canvas.Top="220">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="220" Canvas.Top="280">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="220" Canvas.Top="340">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="220" Canvas.Top="400">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="220" Canvas.Top="460">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="220" Canvas.Top="520">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="220" Canvas.Top="580">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="280" Canvas.Top="100">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="280" Canvas.Top="160">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="280" Canvas.Top="220">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="280" Canvas.Top="280">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="280" Canvas.Top="340">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="280" Canvas.Top="400">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="280" Canvas.Top="460">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="280" Canvas.Top="520">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="280" Canvas.Top="580">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="340" Canvas.Top="100">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="340" Canvas.Top="160">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="340" Canvas.Top="220">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="340" Canvas.Top="280">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="340" Canvas.Top="340">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="340" Canvas.Top="400">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="340" Canvas.Top="460">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="340" Canvas.Top="520">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="340" Canvas.Top="580">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="400" Canvas.Top="100">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="400" Canvas.Top="160">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="400" Canvas.Top="220">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="400" Canvas.Top="280">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="400" Canvas.Top="340">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="400" Canvas.Top="400">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="400" Canvas.Top="460">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="400" Canvas.Top="520">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="400" Canvas.Top="580">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="460" Canvas.Top="100">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="460" Canvas.Top="160">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="460" Canvas.Top="220">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="460" Canvas.Top="280">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="460" Canvas.Top="340">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="460" Canvas.Top="400">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="460" Canvas.Top="460">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="460" Canvas.Top="520">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="460" Canvas.Top="580">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="520" Canvas.Top="100">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="520" Canvas.Top="160">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="520" Canvas.Top="220">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="520" Canvas.Top="280">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="520" Canvas.Top="340">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="520" Canvas.Top="400">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="520" Canvas.Top="460">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="520" Canvas.Top="520">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="520" Canvas.Top="580">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="580" Canvas.Top="100">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="580" Canvas.Top="160">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="580" Canvas.Top="220">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="580" Canvas.Top="280">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="580" Canvas.Top="340">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="580" Canvas.Top="400">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="580" Canvas.Top="460">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="580" Canvas.Top="520">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+                <Grid Height="40" Width="40" Canvas.Left="580" Canvas.Top="580">
+                    <Line X1="0" Y1="20" X2="40" Y2="20" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                    <Line X1="20" Y1="0" X2="20" Y2="40" Stroke="{Binding Path=Text, ElementName=gridColor}" StrokeThickness="2" />
+                </Grid>
+            </Canvas>
+            <Canvas>
+                <Ellipse Width="15" Height="15" Fill="{Binding Path=Text, ElementName=centerColor}" Canvas.Left="402" Canvas.Top="383"></Ellipse>
+                <Ellipse Canvas.Left="220" Canvas.Top="252" Width="{Binding Path=Value, ElementName=dotSize}" Height="{Binding Path=Value, ElementName=dotSize}" Fill="{Binding Path=Text, ElementName=dotColor}"></Ellipse>
+                <Ellipse Canvas.Left="553" Canvas.Top="252" Width="{Binding Path=Value, ElementName=dotSize}" Height="{Binding Path=Value, ElementName=dotSize}" Fill="{Binding Path=Text, ElementName=dotColor}"></Ellipse>
+                <Ellipse Canvas.Left="402" Canvas.Top="554" Width="{Binding Path=Value, ElementName=dotSize}" Height="{Binding Path=Value, ElementName=dotSize}" Fill="{Binding Path=Text, ElementName=dotColor}"></Ellipse>
+            </Canvas>
+        </Grid>
+        <StackPanel Margin="800,0,0,0">
+            
+            <Label>Disapearing-Dots Size</Label>
+            <Slider x:Name="dotSize" Minimum="0" Maximum="100" Value="20"></Slider>
+
+            <Label>Rotate Speed</Label>
+            <Slider Value="{Binding Speed}" Minimum="0" Maximum="50"></Slider>
+            
+            <Label>Disapearing-Dots color</Label>
+            <TextBox x:Name="dotColor" >Yellow</TextBox>
+
+
+            <Label>Center-Dot color</Label>
+            <TextBox x:Name="centerColor" >Green</TextBox>
+            
+            <Label>Grid Color</Label>
+            <TextBox x:Name="gridColor" >Blue</TextBox>
+            
+           
+        </StackPanel>
+    </Grid>
+</Window>

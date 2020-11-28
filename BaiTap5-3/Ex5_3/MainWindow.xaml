@@ -1,0 +1,27 @@
+﻿<Window x:Class="Ex5_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ex5_3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="600">
+    <Grid>
+        <Canvas x:Name="set1" Width="500" Height="25">
+            <Ellipse x:Name="dot11" Canvas.Left="0" Canvas.Top="0" Width="25" Height="25" Fill="Black"></Ellipse>
+            <Ellipse x:Name="dot12" Canvas.Left="100" Canvas.Top="0" Width="25" Height="25" Fill="Black"></Ellipse>
+            <Ellipse x:Name="dot13" Canvas.Left="200" Canvas.Top="0" Width="25" Height="25" Fill="Black"></Ellipse>
+        </Canvas>
+        <Canvas x:Name="set2" Width="500" Height="25">
+            <Ellipse x:Name="dot21" Canvas.Left="25" Canvas.Top="0" Width="25" Height="25" Fill="Black"></Ellipse>
+            <Ellipse x:Name="dot22" Canvas.Left="125" Canvas.Top="0" Width="25" Height="25" Fill="Black"></Ellipse>
+            <Ellipse x:Name="dot23" Canvas.Left="225" Canvas.Top="0" Width="25" Height="25" Fill="Black"></Ellipse>
+        </Canvas>
+
+        <DockPanel>
+            <Slider x:Name="t_slider" Minimum="0" Maximum="3" Width="300" Value="{Binding t}"></Slider>
+            <TextBlock Text="t = "></TextBlock>
+            <TextBox Text="{Binding Path=Value, ElementName=t_slider}" Height="Auto" Margin="0,0,0,143" Width="269" RenderTransformOrigin="0.241,0.579"></TextBox>
+        </DockPanel>
+    </Grid>
+</Window>
