@@ -1,4 +1,4 @@
-# INT_3403_20_WPF
+# INT_3403_20
 Bài tập chương 5 sách "Computer graphics principles and practice".
 
 ## Exercises 5-1
